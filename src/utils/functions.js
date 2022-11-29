@@ -5,7 +5,7 @@ const deleteChar = (value, prng) => {
   return value.substring(0, position) + value.substring(position + 1);
 };
 
-// insert character at random position
+
 const insertChar = (value, prng) => {
   const allChars = [];
   for (let i = 32; i < 127; i++) {
