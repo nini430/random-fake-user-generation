@@ -1,4 +1,4 @@
-// delete character from random position
+
 
 const deleteChar = (value, prng) => {
   const position = Math.floor(prng() * value.length);
